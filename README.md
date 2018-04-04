@@ -3,7 +3,7 @@ Write a program that prints the numbers from 1 to 100. But for multiples of five
 
 To determine if a number can be evenly divided by 3 or 5, use the JavaScript remainder operator.
 
-##For example...
+## For example...
 
 ### Only show even numbers
 const numbers = [1,2,3,4,5,6,7]
