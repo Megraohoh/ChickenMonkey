@@ -1,9 +1,14 @@
 // Write a program that prints the numbers from 1 to 100. 
-const number = i
 
-for (i = 0; i < number.length; i++) {
+//Creates array from 1--100
+const arrayOfNumbers = Array.from({length: 101}, (x, i) => i)
+//console.log(arrayOfNumbers)--array is functional
 
-}
-// For multiples of five (5, 10, 15, etc.) print "Chicken" instead of the number
-// For the multiples of seven (7, 14, 21, etc.) print "Monkey". 
-// For numbers which are multiples of both five and seven print "ChickenMonkey".
+//write for loop to iterate over array
+
+
+
+// For multiples of five (5, 10, 15, etc.) print "Chicken" instead of the number | else if
+// For the multiples of seven (7, 14, 21, etc.) print "Monkey". | else if
+// For numbers which are multiples of both five and seven print "ChickenMonkey". | most specific goes on top-->if statement
+// For all other numbers | else
